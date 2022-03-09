@@ -22,15 +22,19 @@ section {
 
 article.card {
   padding: 2rem;
-
-}
-
-article.card.Sedan {
-  background-color: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 .bg-yellow {
-  background-color: yellow;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.bg-blue {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.bg-green {
+  background-color: hsl(179, 100%, 13%);
 }
 
 .container {
@@ -38,19 +42,20 @@ article.card.Sedan {
   margin: 0 auto;
 }
 
+
+
 /* Mobile Only Styles */
 @media (max-width: 768px) {
   .flex {
     flex-direction: column;
+    max-width: 375px;
 }
 
 /* Desktop Only Styles */
 @media (min-width: 48em) {
-  section.flex {
+  .flex {
     flex-direction: row;
-  }
-  section {
-    max-width: 60%;
+    max-width: 1440px;
   }
 }
 
