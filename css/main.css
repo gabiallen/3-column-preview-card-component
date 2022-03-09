@@ -22,8 +22,22 @@ section {
 
 article.card {
   padding: 2rem;
-  color: hsla(0, 0%, 100%, 0.75);
 }
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.9375rem;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-size: 2rem;
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+}
+
+
 
 .bg-yellow {
   background-color: hsl(31, 77%, 52%);
@@ -40,9 +54,15 @@ article.card {
 .container {
   max-width: 60rem;
   margin: 0 auto;
+  margin-top: 20 rem;
 }
 
-
+button.learn {
+  border-radius: 40px;
+  padding: .75rem 1.75rem;
+  font-size: 0.9375rem 
+  font-family: 'Lexend Deca', sans-serif;
+}
 
 /* Mobile Only Styles */
 @media (max-width: 768px) {
