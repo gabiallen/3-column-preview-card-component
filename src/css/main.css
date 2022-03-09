@@ -1,4 +1,4 @@
-/* Decent Defaults */
+/* Standard Styles */
 
 img,
 video {
@@ -14,3 +14,43 @@ video {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+section {
+  display: flex;
+  align: center;
+}
+
+article.card {
+  padding: 2rem;
+
+}
+
+article.card.Sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+/* Mobile Only Styles */
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+}
+
+/* Desktop Only Styles */
+@media (min-width: 48em) {
+  section.flex {
+    flex-direction: row;
+  }
+  section {
+    max-width: 60%;
+  }
+}
+
