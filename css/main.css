@@ -26,7 +26,6 @@ section {
 
 article.card {
   padding: 3em;
-  padding-right: 3.5rem !important;
 }
 
 p {
@@ -98,11 +97,16 @@ img {
   margin-bottom: 2rem;
 }
 
+.container {
+  max-width: 58rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 /* Mobile Only Styles */
 @media (max-width: 768px) {
   .flex {
     flex-direction: column;
-    max-width: 375px;
   }
 
   p {
@@ -118,18 +122,12 @@ img {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
-
-  .container {
-    max-width: 21rem;
-    margin: 0 auto;
-  }
 }
 
 /* Desktop Only Styles */
 @media (min-width: 48em) {
   .flex {
     flex-direction: row;
-    max-width: 1440px;
   }
 
   p {
@@ -144,10 +142,5 @@ img {
   .bg-green {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-  }
-
-  .container {
-    max-width: 58rem;
-    margin: 0 auto;
   }
 }
