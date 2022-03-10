@@ -58,12 +58,27 @@ h1 {
 
 button.learn {
   border-radius: 40px;
-  padding: 0.8rem 2rem;
+  padding: 0.6rem 2rem;
   font-size: 0.9375rem;
   font-family: "Lexend Deca", sans-serif;
   background-color: hsl(0, 0%, 95%);
-  border: none;
+  border: 2px solid hsl(0, 0%, 95%);
   margin-bottom: 0.2rem;
+}
+
+button.Sedans:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+button.SUVs:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+button.Luxury:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
 }
 
 button.Sedans {
